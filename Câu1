@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+int main()
+
+{
+	int a,b;
+    printf("nhap vao he so a : "); scanf("%f", &a);
+    printf("nhap vao he so b : "); scanf("%f", &b);
+
+    if(a == 0)
+    {
+        if(b == 0)
+            printf("phuong trinh vo so nghiem");
+        else
+            printf("phuong trinh vo nghiem");
+        
+    }
+    else
+    	 printf("phuong trinh co mot nghiem duy nhat x = %f", -b/a);
+   
+}
